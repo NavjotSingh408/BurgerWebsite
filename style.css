@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px 4px rgba(0, 0, 0, 0.2);
+    height: 8vh;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+#nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+#nav-bar a:hover {
+    background-color: #ccc;
+}
+
+#content-container {
+    max-width: 86%;
+    margin: 0px auto 0px auto;
+    }
+        .ruleS {
+            margin: 6vh 0;
+            color: #757575;
+        }
+
+.img-title {
+    position: absolute;
+    top: 90vh;
+    left: 3vw;
+    z-index: 2;
+}
+
+.img-title h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    opacity: 70%;
+    font-size: 30px;
+}
+
+.div-style {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.padding1 {
+    padding: 12px 24px;
+}
+
+.about-div h1 {
+    margin: 3vh 0vh;
+}
+
+.about-div h4 {
+    margin-top: 6vh ;
+    letter-spacing: 5px;
+}
+
+.para-style {
+    text-align: left;
+    margin-top: 3vh;
+    word-spacing: 3px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.para-style2 {
+    color: #757575;
+}
+
+.font-set1 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.text-style h1,h4{ 
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    margin: 2vh 0;
+    letter-spacing: 5px;
+}
+#Menu h4{
+    text-align: left;
+    font-size: 20px;
+}
+#Menu p{
+    color: #757575 !important;
+    margin: 15px 0px !important;
+}
+.text-style p{
+    margin: 1.5em 0px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-style input,button{
+    width: 100%;
+    border: none;
+    font: inherit;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 10px;
+}
+.text-style b{
+    color: #607d8b;
+}
+button{
+    width: auto !important;
+    color: rgb(18, 15, 15);
+    background-color: #f1f1f1;
+    padding: 8px 16px !important;
+    margin: 16px 0px !important;
+}
+.bu-footer{
+    border: none;
+    background-color: #f1f1f1;
+   
+    padding: 32px;
+    
+}
+.bu-footer p,a{
+    text-align: center;
+    color: #000;
+}
+.bu-footer p a{
+    text-decoration: underline !important;
+}
+
